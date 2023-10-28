@@ -18,7 +18,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: lightgray;
-    background-image: url("/labo_4/Images/kia-rio-gls-my22-34front-w.jpg");
+    background-image: url("https://lambertrune.github.io/webdevelopment/labo_4/Images/kia-rio-gls-my22-34front-w.jpg");
     background-size: cover;
 
 }
