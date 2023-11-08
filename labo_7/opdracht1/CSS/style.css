@@ -1,0 +1,8 @@
+ul{
+    background: black;
+    background-image: url("https://lambertrune.github.io/webdevelopment/labo_7/opdracht1/Images/header.jpg");
+}
+ul a{
+    padding:3px;
+    background-color: grey;
+}
