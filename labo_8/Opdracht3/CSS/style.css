@@ -1,0 +1,38 @@
+div {
+    height: 100px; /* Stel de hoogte van het blokelement in */
+    line-height: 100px; /* Stel line-height in op dezelfde waarde als de hoogte van het blokelement */
+    text-align: center; /* Optioneel: Als je ook horizontale centrering wilt */
+    border: 1px solid #ccc; /* Voeg een rand toe voor visuele referentie */
+  
+}
+.truc{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; /* Optioneel: Als je ook horizontale centrering wilt */
+  
+}
+
+.area {
+	width:100px;
+	height:100px;
+	background:red;
+	display:inline-block;
+}
+
+.tall {
+	height:150px;
+}
+
+.short {
+	height:50px;
+}
+
+.floaty{
+	float:left;
+	background:green;
+}
+
+.break {
+	clear:both;
+	background:blue;
+}
