@@ -10,7 +10,7 @@ section p {
     border: black solid 1px;
 }
 
-.links {
+a {
     float: left;
-    clear: both;
+    clear: both ;
 }
