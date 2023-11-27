@@ -88,6 +88,9 @@ body {
 
 /* Media query for mobile */
 @media (max-width: 1000px) {
+    .scroll-btn{
+        font-size: 48px;
+    }
     /* Reset styles for the ul element */
     .floatright{
         float: none;
