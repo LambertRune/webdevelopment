@@ -60,6 +60,31 @@ li a:after {
 .bodySetup{
     margin: 16px;
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Voeg een voorkeurslettertype toe */
+}
+
+/* ... Je bestaande stijlen ... */
+
+.scroll-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px; /* Maak de hoeken rond voor een ronde knop */
+    display: none;
+    transition: transform 0.3s ease-in-out; /* Voeg een overgang toe voor een soepele beweging */
+}
+
+.scroll-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Voeg een schaal-effect toe bij hover */
+}
 
 /* Media query for mobile */
 @media (max-width: 1000px) {
@@ -96,4 +121,5 @@ li a:after {
     .bodySetup{
         text-align: center;
     }
+
 }
