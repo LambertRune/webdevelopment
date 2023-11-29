@@ -1,7 +1,6 @@
 html {
-     width:950px;
-     font-family: Arial helvetica, sans-serif;
-
+    margin: 0 2.5% 0 2.5%;
+    font-family: Arial, helvetica, sans-serif;
 }
 
 p {
@@ -23,18 +22,18 @@ header {
 
 }
 
-header .topTitel {
+header #topTitel {
     font-size: 300%;
     margin: 0;
     font-style: oblique;
 }
 
-header .bottomTitel {
+header #bottomTitel {
     font-size: 240%;
     margin: 0;
 }
 
-header .vliegtuig {
+header #vliegtuig {
     float: right;
     margin: 0 90px 60px 0;
     position: absolute;
@@ -42,56 +41,84 @@ header .vliegtuig {
     top: 50px;
 }
 
-.news {
+#news {
     float: right;
     background-color: #dddddd;
     border: #999999 1px solid;
     text-align: center;
-    width: 25%;
+    width: 24.8%;
 
 }
 
-.news > h3 {
+#news > h3 {
     background-color: blue;
     color: white;
     font-size: 120%;
 }
 
-.news > p {
+#news > p {
     padding: 0 10px 0 10px;
 }
 
-.main {
-    width: 75%;
+#main {
+    width:74%;
+
 }
 
-.gallery {
+#gallery {
     background-color: #999999;
     display: inline-block;
+    padding: 10px;
 
 }
+
 span {
     color: blue;
     font-weight: bold;
     font-style: italic;
 }
+
 article > div > img {
     float: left;
     margin: 20px;
 }
 
-.introduction {
+#introduction {
     padding: 20px 30px 20px 0;
     overflow: hidden;
 }
-.foto{
+
+.foto {
     display: inline-block;
     height: 180px;
     width: auto;
-    padding:10px;
+    padding: 10px;
     background-color: white;
-    border: 2px dotted black;
-    border-radius: 1em;
+    border: 1px dashed black;
+    margin: 10px 10px;
+
+}
+.bottom {
+    clear : both;
+    background-color: #666666;
+    color:white;
+}
+
+.block {
+    display:inline-block;
+    margin-left: 120px;
+    margin-bottom:0px;
+    line-height: 2em;
+}
+.block a {
+    color: white;
+}
+.block a:hover {
+    color: red;
+}
+
+.copyright p{
+    text-align:center;
 }
 
 

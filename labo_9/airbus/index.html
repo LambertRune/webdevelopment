@@ -10,15 +10,15 @@
 <header>
     <!-- top -->
     <strong>
-        <p class="topTitel">AIRBUS - A380</p>
-        <p class="bottomTitel">Het grootste passagiersvliegtuig ter wereld </p>
+        <p id="topTitel">AIRBUS - A380</p>
+        <p id="bottomTitel">Het grootste passagiersvliegtuig ter wereld </p>
     </strong>
-    <img class="vliegtuig" src="images/tekklein.png" alt="tekening van vliegtuig"/>
+    <img id="vliegtuig" src="images/tekklein.png" alt="tekening van vliegtuig"/>
 </header>
 
 
 <!-- news -->
-    <article class="news">
+    <article id="news">
         <h3>Eerste vlucht</h3>
         <p>Het toestel maakte zijn eerste trans-Atlantische vlucht met passagiers op 19 maart 2007 tussen
             Frankfurt am Main en New York.
@@ -46,12 +46,12 @@
 
 
  <!-- main -->
-<article class="main">
+<article id="main">
     <div> <!-- logo -->
         <img src="images/airbus_logo.jpg" alt="Het logo van airbus"/>
     </div>
 
-    <article class="introduction"> <!-- introduction -->
+    <article id="introduction"> <!-- introduction -->
         <p><b>De Airbus A380</b> is het grootste passagiersvliegtuig ter wereld. Het is
             een product van het Europese concern Airbus. Het widebody-vliegtuig beschikt over twee
             verdiepingen, waardoor het maximaal 853 passagiers kan herbergen. Bij een gemiddelde configuratie
@@ -64,7 +64,7 @@
         </p>
     </article>
 
-    <div class="gallery"> <!-- gallery -->
+    <div id="gallery"> <!-- gallery -->
         <div class="foto">
             <img src="images/A380Grond.JPG" alt="Foto vliegtuig op de grond"/>
         </div>
@@ -96,39 +96,32 @@
 </article>
 
 <article> <!-- bottom -->
-
-    <div> <!-- block -->
-        <ul>
-            <li> Manchester</li>
-            <li> Toulouse
+    <nav class="bottom">
+        <ul class="block">
+            <li>Manchester</li>
+            <li>Toulouse
                 <ul>
-                    <li> Main Building</li>
-                    <li> Wing Assembly</li>
-                    <li> Simulator</li>
+                    <li>Main Building</li>
+                    <li>Wing Assembly</li>
+                    <li>Simulator</li>
                 </ul>
             </li>
-            <li> Frankfurt am Main</li>
+            <li>Frankfurt am Main</li>
         </ul>
-    </div>
-
-    <div> <!-- block -->
-        <ul>
-            <li> Documentary</li>
-            <li> Aircrafts
+        <ul class="block">
+            <li>Documentary</li>
+            <li>Aircrafts
                 <ul>
-                    <li><a href="http://www.airbus.com"> A300 - A310 </a></li>
-                    <li><a href="http://www.airbus.com">A330 - A340 </a></li>
-                    <li><a href="http://www.airbus.com"> A360 </a></li>
+                    <li><a href="http://www.airbus.com">A300 - A310</a></li>
+                    <li><a href="http://www.airbus.com">A330 - A340</a></li>
+                    <li><a href="http://www.airbus.com">A360</a></li>
                 </ul>
             </li>
-            <li> A380 - 800</li>
+            <li>A380 - 800</li>
         </ul>
-    </div>
-</article>
-
-<div> <!-- copyright -->
-    <p>&lt; &copy; Airbus A380 &gt;</p>
-</div>
-
+    </nav>
+    <footer class="copyright">
+        <p>&lt; &copy; Airbus A380 &gt;</p>
+    </footer>
 </body>
 </html>
