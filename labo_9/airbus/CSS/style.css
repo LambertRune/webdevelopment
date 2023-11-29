@@ -22,15 +22,17 @@ header {
 
 }
 
-header #topTitel {
+header>h1 {
     font-size: 300%;
     margin: 0;
     font-style: oblique;
+    font-weight: bold;
 }
 
-header #bottomTitel {
+header>p {
     font-size: 240%;
     margin: 0;
+    font-weight: bold;
 }
 
 header #vliegtuig {
