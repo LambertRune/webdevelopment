@@ -1,0 +1,78 @@
+/* Global Styles */
+html {
+    background-color: #333;
+    font-family: helvetica sans-serif;
+}
+body {
+    font-size: 1em;
+    margin: 5px;
+    background-color: #333;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    background-color:#ccc;
+}
+nav a {
+    background-color: #ccc;
+    color:#ddaa00;
+    font-weight: bold;
+    text-decoration: none;
+    border:1px solid black;
+}
+nav image{
+
+}
+body {
+
+}
+
+/* Header and Footer */
+header, footer {
+    background: #ddaa00;
+    color: #ddaa00;
+}
+
+/* Navigation */
+
+
+/* Main */
+main {
+    background-color: grey;
+}
+
+/* Typography */
+/* Body Copy */
+
+
+
+
+section {
+    margin: 5px;
+    border:5px solid white;
+}
+
+nav a {
+    margin: 0 5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+* {
+    padding: 10px;
+}
+
+/* Exceptions */
+nav {
+    padding: 5px 2px;
+}
+
+img {
+    padding: 0;
+}
+section a {
+    border: 1px solid #333;
+}
