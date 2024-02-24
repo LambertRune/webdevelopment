@@ -1,0 +1,72 @@
+
+
+.caption {
+    font-family: helvetica;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.grid{
+    display:grid;
+    grid-template-rows: repeat(5,auto);
+    grid-template-columns: auto;
+    text-align: center;
+
+
+
+}
+.gridHeader {
+    background-color: #dcd6fe;
+    grid-row: 1/2;
+    padding:30px;
+}
+
+.gridNav {
+    background-color: #c6c0ff;
+    grid-row:2/3;
+    padding:30px;
+}
+
+.gridMain {
+    background-color: #f9f6d2;
+    grid-row:3/4;
+    padding:30px;
+}
+
+.gridAside {
+    background-color: #d4ffd1;
+    grid-row:4/5;
+    padding:30px;
+}
+
+.gridFooter {
+    background-color: #ffd1d1;
+    grid-row:5/6;
+    padding:30px;
+}
+
+@media screen and (min-width: 786px){
+.grid{
+    grid-template-columns: 5% 10% auto 10% 5%;
+    grid-template-rows: repeat(3,auto);
+}
+    .gridHeader{
+        grid-column: 1/6;
+    }
+    .gridNav{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .gridMain{
+        grid-row:2/3;
+        grid-column:3/4;
+
+    }
+    .gridAside{
+        grid-row:2/3;
+        grid-column:4/5;
+    }
+    .gridFooter{
+        grid-row:3/4;
+        grid-column:1/6;
+    }
+}
