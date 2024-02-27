@@ -41,7 +41,9 @@ img {
     height: auto;
     display: flow;
 }
+ol{
 
+}
 /* Responsive Styles */
 @media screen and (min-width: 600px) {
     /* Desktop Styles */
