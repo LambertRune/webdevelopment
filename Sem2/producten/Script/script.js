@@ -16,14 +16,14 @@ function herbereken() {
     var aantal2 = parseFloat(document.getElementById("aantal2Value").textContent) || 0;
     var btw2 = parseFloat(document.getElementById("btw2Value").textContent) || 0;
 
-    var subtotaal2 = prijs2 * aantal2 * (1 + btw2);
+    var subtotaal2 = prijs2 * aantal2 * (btw2/100+1);
     document.getElementById("subtotaal2Value").textContent = subtotaal2.toFixed(2);
 
     var prijs3 = parseFloat(document.getElementById("prijs3Value").textContent) || 0;
     var aantal3 = parseFloat(document.getElementById("aantal3Value").textContent) || 0;
     var btw3 = parseFloat(document.getElementById("btw3Value").textContent) || 0;
 
-    var subtotaal3 = prijs3 * aantal3 * (1 + btw3);
+    var subtotaal3 = prijs3 * aantal3 * (btw3/100+1);
     document.getElementById("subtotaal3Value").textContent = subtotaal3.toFixed(2);
 
     var totaal = subtotaal1+subtotaal2+subtotaal3;
