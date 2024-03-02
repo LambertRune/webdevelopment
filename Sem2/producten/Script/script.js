@@ -27,5 +27,5 @@ function herbereken() {
     document.getElementById("subtotaal3Value").textContent = subtotaal3.toFixed(2);
 
     var totaal = subtotaal1+subtotaal2+subtotaal3;
-    document.getElementById("totaal")
+    document.getElementById("totaal").textContent = totaal.toFixed(2);
 }
