@@ -26,4 +26,4 @@ const update = () => {
 }
 
 
-window.addEventListener("DOMContentLoaded", setup);
+window.addEventListener("load", setup);

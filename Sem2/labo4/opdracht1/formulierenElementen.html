@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>labo 4</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+
+</head>
+<body>
+<form action="formulierenElementen.html"method="post">
+    <label for="fName">First name* <input id="fName" type="text" placeholder="Your first name" name="first name" required></label>
+    <label for="lName">Last name* <input id="lName" type="text" placeholder="Your last name" name="last name" required></label>
+    <p>Wich sport do you train?</p>
+    <label for="Run">Running<input id="Run" type="checkbox" name="sport"></label>
+    <label for="Swim">Swimming<input id="Swim" type="checkbox" name="sport"></label>
+    <label for="Row">Rowing<input id="Row"  type="checkbox" name="sport"></label>
+    <label for="Male"><input id="Male" type="radio" name="Gender">Male</label>
+    <label for="Female"><input id="Female" type="radio" name="Gender">Female</label>
+    <label for="movie">Favorite movie <input id="movie" type="text" name="movie"></label>
+    <label for="quote">Favorite quote:<input type="text" placeholder="Write your favorite quote" id="quote" name="quote"></label>
+    <label for="password">Password* <input id="password" type="password" name="password" required></label>
+    <label for="select">Favorite food:
+        <select name="select" id="select">
+            <option value="0">hamburger</option>
+            <option value="1">pita</option>
+            <option value="2">pizza</option>
+        </select>
+    </label>
+    <label for="file"><input id="file" type="file" name="file"></label>
+    <label for="mail">Email adress: <input id="mail" type="email" name="mail"></input></label>
+    <label for="site">Favorite site: <input id="site" type="text" name="site"></label>
+    <label for="fNumber">Favorite number between 1-10: <input id="fNumber" type="number" min="1" max="10" name="favorite number"></label>
+    <label for="fNumberHigh">Favorite number between 11-1000: <input id="fNumberHigh" type="range" name="number" min="1" max="1000"></label>
+    <label for="date">When where you born? <input type="date" id="date" name="Birthdate"></label>
+    <label for="zip">Belgium zip-code reg number*: <input type="text" id="zip" name="zip"></label>
+    <label for="search">Search for something: <input id="search" type="text" name="search"></label>
+    <label for="color">What is your favorite color? <input id="color" type="color" name="color"></label>
+    <label for="submit"><input id="submit" type="submit" value="verzenden"></label>
+
+
+</form>
+
+</body>
+</html>
