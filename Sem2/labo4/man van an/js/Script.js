@@ -10,7 +10,7 @@ while (index !== -1) {
 
 console.log("Aantal keren dat 'an' voorkomt met indexOf:", count);
 
-// Oplossing met lastIndexOf
+
 count = 0;
 index = tekst.lastIndexOf(zoekString);
 
