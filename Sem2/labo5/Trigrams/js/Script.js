@@ -11,3 +11,4 @@ function maakTrigram(){
         console.log(triagram);
     }
 }
+window.addEventListener("load",setup);
