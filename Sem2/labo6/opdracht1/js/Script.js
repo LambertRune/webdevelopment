@@ -2,9 +2,10 @@
    const setup = ()=>{
 
            let paragraph = document.getElementById("abc");
-           console.log(paragraph);
+           console.log(paragraph.nodeValue);
+
 
     }
-   window.eventListeners("load",setup);
+   window.addEventListener("load",setup);
 
 
