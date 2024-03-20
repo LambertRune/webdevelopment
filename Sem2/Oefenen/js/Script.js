@@ -1,25 +1,15 @@
-const setup = () => {
+
+const setup =()=>{
     let button = document.getElementById("button");
-    button.addEventListener("click", functie);
+    let txt = document.getElementById("textbox").innerHTML;
+
+    button.addEventListener("click",print);
+
 
 }
-const functie = () => {
-    let radio = document.getElementById("radio").checked;
-    let radio1 = document.getElementById("radio1").checked;
-    let radio2 = document.getElementById("radio2").checked;
+const print = ()=>{
+    let txt = document.getElementById("textbox").value;
 
-
-    let css = document.getElementById("t");
-
-
-    if (radio) {
-
-        css.backgroundImage = url('Images/1.png');
-    } else if (radio1) {
-        css.backgroundImage = "url('Images/2.png')";
-    } else if (radio2) {
-        css.backgroundImage = "url('Images/3.png')";
-    }
-
+    console.log(txt.substring(1,5));
 }
-window.addEventListener('load', setup);
+window.addEventListener("load",setup);
