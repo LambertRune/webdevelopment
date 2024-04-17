@@ -1,15 +1,22 @@
 let personen = [];
 
 // Event listener (btnBewaar click)
-let button = document.getElementById(btnBewaar);
-button.addEventListener("click",bewaarBewerktePersoon)
 // Bewaar de wijzigingen die in de user interface werden aangebracht
-let userInterface ={
-    
-}
 const bewaarBewerktePersoon = () => {
     console.log("Klik op de knop bewaar");
-
+    
+    let userInterface ={
+        
+            voornaam : document.getElementById("txtVoornaam").value,
+            familienaam : document.getElementById("txtFamilienaam").value,
+            geboorteDatum : new Date(document.getElementById("txtGeboorteDatum").value),
+            mail: document.getElementById("txtEmail").value;
+            aantalKinderen: document.getElementById("txtAantalKinderen").value;
+        
+            
+    }
+    
+   
     // valideer alle input data en controleer of er geen errors meer zijn
     valideer();
 
