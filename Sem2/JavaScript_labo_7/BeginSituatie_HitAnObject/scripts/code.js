@@ -58,13 +58,14 @@ const clickedTarget = (event) => {
 
 const endGame = () => {
     let gameOver = document.createElement("p");
-    let gameOverText = document.createTextNode("GAME OVER");
+    window.alert("game over");
     gameOver.appendChild(gameOverText);
     gameOver.setAttribute("id", "gameOver");
     let field = document.querySelector("#playField");
     field.appendChild(gameOver);
     clearTimeout(global.timer);
     global.gameEnded = true;
+    
 }
 
 window.addEventListener("load", setup);
