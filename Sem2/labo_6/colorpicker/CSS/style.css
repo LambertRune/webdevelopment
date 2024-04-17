@@ -1,0 +1,35 @@
+div>section   {
+    display:flex;
+    flex-direction: row;
+}
+.flex{
+    border:2px solid grey ;
+    border-radius: 1em;
+
+    padding:1em;
+    display:flex;
+    flex-direction: row;
+    gap:1em;
+}
+.items{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding-top: 1em;
+
+}
+.items>div{
+    border: 1px solid black;
+    width:100px;
+    height:100px;
+}
+p{
+
+    margin:1px;
+}
+.box{
+    border: 1px solid black;
+    width:100px;
+    height:100px;
+}
+
