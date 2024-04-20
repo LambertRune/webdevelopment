@@ -2,19 +2,20 @@ let personen = [];
 
 // Event listener (btnBewaar click)
 // Bewaar de wijzigingen die in de user interface werden aangebracht
+let userInterface ={
+        
+    voornaam : document.getElementById("txtVoornaam").value,
+    familienaam : document.getElementById("txtFamilienaam").value,
+    geboorteDatum : new Date(document.getElementById("txtGeboorteDatum").value),
+    mail: document.getElementById("txtEmail").value,
+    aantalKinderen: document.getElementById("txtAantalKinderen").value
+
+    
+}
 const bewaarBewerktePersoon = () => {
     console.log("Klik op de knop bewaar");
     
-    let userInterface ={
-        
-            voornaam : document.getElementById("txtVoornaam").value,
-            familienaam : document.getElementById("txtFamilienaam").value,
-            geboorteDatum : new Date(document.getElementById("txtGeboorteDatum").value),
-            mail: document.getElementById("txtEmail").value;
-            aantalKinderen: document.getElementById("txtAantalKinderen").value;
-        
-            
-    }
+    
     
    
     // valideer alle input data en controleer of er geen errors meer zijn
@@ -30,6 +31,7 @@ const bewaarBewerktePersoon = () => {
 // Event listener (btnNieuw click)
 const bewerkNieuwePersoon = () => {
     console.log("Klik op de knop nieuw");
+
 
     // Zet de user interface klaar om de gegevens van een nieuwe persoon in te voeren
 };
