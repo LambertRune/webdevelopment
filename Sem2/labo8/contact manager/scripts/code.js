@@ -8,9 +8,11 @@ const bewaarBewerktePersoon = () => {
     // valideer alle input data en controleer of er geen errors meer zijn
     let selector = document.getElementById("lstPersonen");
     let selectedIndex = selector.selectedIndex;
+    
+    valideer();
     if(personen.length<10){
-        if(familieNaam1!==""){
-            valideer();
+        if(selectedIndex===-1){
+            
             let persoon ={
                 voornaam: document.getElementById("txtVoornaam").value,
                 familieNaam: familieNaam1,
@@ -34,6 +36,7 @@ const bewaarBewerktePersoon = () => {
             personen[selectedIndex].geboortedatum= document.getElementById("txtGeboorteDatum").value;
             personen[selectedIndex].mail= document.getElementById("txtGeboorteDatum").value;
             personen[selectedIndex].aantalKinderen== document.getElementById("txtAantalKinderen").value;
+            
         }
        
     }
