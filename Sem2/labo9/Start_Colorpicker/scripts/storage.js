@@ -37,11 +37,12 @@ const restoreSliderValues = () => {
 const storeSwatches = () => {
     
 
-        global.swatches = [];
+    global.swatches = [];
+        
 
         let sections = document.getElementsByTagName("section");
+        
         let swatchesArray = [];
-    
        
         for (let i = 0; i < sections.length; i++) {
             let section = sections[i]; 
@@ -62,6 +63,7 @@ const storeSwatches = () => {
         }
         
         localStorage.setItem("colorpickerPro.be.Swatches", JSON.stringify(global.swatches));
+
     
     };
     
