@@ -18,10 +18,8 @@ const deNaarHet=() =>{
         
     }
     for(let i = 0; i<array.length;i++){
-        
-
             resultaat+=array[i]+" ";
-        
+
 
     }
     
