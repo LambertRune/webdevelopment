@@ -3,7 +3,7 @@ let arrayWoord = ["elize","bartj","neger"];
 let tezoekenwoord=[];
 tezoekenwoord= arrayWoord[Math.floor(Math.random()*arrayWoord.length)].split('');
 
-
+arrayWoord.sli
 const setup =()=>{
     document.getElementById("gok").disabled = true;
     document.getElementById("go").disabled=true;
